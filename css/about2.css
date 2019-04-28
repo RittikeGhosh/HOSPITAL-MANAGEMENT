@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+body{}
+
+#content{
+    width: 900px;
+    position: relative;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius:20px;
+    box-shadow: -10px 10px 10px #eee;
+    font-size: 20px;
+}
+#content h1{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: blueviolet;
+    box-sizing: border-box;
+}
+#content article
+{
+    padding: 20px;
+    margin: 50px 0;
+    border-radius:20px;
+    box-shadow: -10px 10px 10px #eee;
+    float: left;
+    width: 50%;
+    background-color :antiquewhite;
+}
+#content img
+{
+    
+    margin: 50px 0;
+    float: right;
+    box-shadow: -10px 10px 10px #eee;
+    width: 40%;
+}

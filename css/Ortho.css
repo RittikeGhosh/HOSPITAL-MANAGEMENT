@@ -1,0 +1,229 @@
+*{
+    margin: 0px 0px;
+    padding:0px 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+}
+.header1{
+	z-index: 1;
+	height: 390px;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+    font-family: sans-serif;
+	background: url("../images/orthopaedic.jpg");
+	background-size: cover;
+    margin: 50px 10%;
+}
+.header1 .box{
+	display:block;
+	margin: 295px 0 0 0;
+	left:30px;
+	bottom: auto;
+	/*width:520px;*/
+	padding: 20px;
+	background-color: rgba(0,0,0,0.7);
+}
+.header1 .box h2{
+
+	font-size: 24px;
+	font-weight: 545;
+	color:#00a950;
+
+	margin: 0px;
+	padding: 0 0 10px;
+}
+.header1 .box p{
+
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: bold;
+	color:#fff;
+	margin: 0;
+	padding: 0px;
+}
+h6{
+	/*width: 94%;
+	margin-left: 2%;*/
+	padding: 12px;
+	font-size: 14px;
+	background: lightgrey;
+	border-radius: 5px;	
+    margin: 0px 10%;
+}
+.sec1{
+    margin: 0px 10%;
+	padding: 45px 0 0;
+	display: block;
+	box-sizing: border-box;
+	outline: none;
+}
+.sec1 h1{
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+	color: #fff;
+	background-image: url("../images/heading-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/*width: 100%;*/
+    padding: 12px 10px;
+   /* font-family:'frutiger ce 55 romanregular';*/
+   margin: 0;
+}
+
+.sec1 .cont2{
+	background-color:#f1efef;
+	padding: 10px 20px 0;
+	}
+	.sec1 .cont2 p{
+		font-size: 18px;
+		line-height: 26px;
+	/*word-spacing: 3px;*/
+	color:#656565;
+	padding-bottom: 20px;
+	/*font-family:sans-serif;*/
+	margin: 0 0 10px;
+
+	}
+	.container{
+		display: grid;
+		grid-template-rows: 70px 260px;
+		/*border: 1px solid orange;*/
+		height: auto;
+		background-image: url("../images/consultANT-BG.jpg");
+		background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    margin: 0px 10%;
+	}
+	.hmt1{
+		/*border:1px solid red;*/
+
+	}
+	 .hmt2{
+	 	box-sizing: border-box;
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+		grid-column-gap: 4%;
+		/*border: 1px solid green;*/
+		padding:0 25px 20px 27px;
+		/*height: 245px;*/
+		width: auto;
+
+	}
+	.hmt21,.hmt22, .hmt23{
+		display: grid;
+		grid-template-rows: 232px 15px;
+		/*border: 2px solid violet;*/
+        background-color: white;
+        padding-bottom: 13px;
+    }
+	
+	.hmt23{
+		border: 2px solid cyan;
+		text-align: center;
+		vertical-align: middle;
+		background-color: white;
+        background-image: url("pic3.jpg");
+        background-repeat: no-repeat;
+	    background-position: center center;
+	    /* padding:10px 10px 10px 10px;*/
+	    background-size: 240px 240px;
+	}
+	.hmt311, .hmt321, .hmt331{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-size: 236px 236px;
+        padding-bottom:0px;
+        /*border: 2px solid yellow;*/
+
+	}
+	.hmt311{
+		background-image: url("../images/pic1.jpg");
+        background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.hmt321{
+		background-image: url("../images/pic2.png");
+        background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.hmt331{
+		background-image: url("../images/pic3.jpg");
+        background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.hmt312, .hmt322, .hmt332{
+		padding-top: 10px;
+		margin: 0;
+		color:#00a950;
+		font-size: 16px;
+		font-weight: bolder;
+		text-align: center;
+
+	}
+	.container .hmt1 h2{
+		font-size: 28px;
+		text-align: center;
+		color:#fff;
+		font-weight: 500;
+		padding: 20px 0;
+		display: block;
+		vertical-align: middle;
+		margin: 0;
+	}
+	.ortho2 h1{
+		margin: 0;
+		padding: 15px 0;
+		padding-left: 5%;
+		color: #0095da;
+		border-bottom: none;
+		font-weight: bolder;
+		font-size: 20px;
+
+	}
+	.ortho2{
+		padding: 20px;
+        text-align: center;
+        margin: 0px 10%;
+        margin-top: 100px;
+		width: auto;
+		border-radius: 10px;
+		border: 2px solid orange;
+		overflow: hidden;
+	}
+
+	.ortho2 h2{
+		margin: 0;
+		padding: 15px 0;
+		color: #0095da;
+		border-bottom: none;
+		font-weight: bold;
+		font-size: 17px;
+	}
+	.ortho2 img{
+        width: 100%;
+        max-width: 1000px;
+	}
+	.ortho2 blockquote{
+        margin: 30px 0px;
+		line-height: 20px;
+		padding:10px;
+		background-color:aliceblue;
+	}
+	.ortho2 p{
+		font-family: sans-serif;
+	}
+.ortho2 .fac{
+    text-align: left;
+}
+	.ortho2 .fac li{
+		line-height: 25px;
+		font-size: 15px;
+		font-weight: bolder;
+        list-style-position: inside;
+	}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ARAV Hospital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
+    <link rel="stylesheet" href="css/healthtip.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bookmyappointment.css">
+    <link rel="stylesheet" href="css/department.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
+</head>
+<body>
+
+<header>
+    <div id="logo">
+    <a href="index.html">
+        <img src="images/arav.png" alt="Not available">
+    </a>
+    </div>
+    <div id="button">
+       
+        <ul>
+           <span>
+                <span style="color:blue;size:1x;">
+                    <i class="fas fa-phone"></i>
+                </span>
+                <span>+91-(8155 555555)</span>
+                </span>
+            <li id="bookAp">Book Appointment</li>
+            <li id="emer">Emergency (1044)</li>
+        </ul>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <a href="index.html"><li>
+            <span style="color:red;font-size:21px;">
+                    <i class="fas fa-home fa-1x"></i>
+            </span>
+            </li></a>
+        <a href = "about.html">
+        <li>ABOUT US</li>
+        </a>
+        <a href = "#contact" behavior="slide"><li>CONTACT US</li></a>
+    </ul>
+</nav>
+    
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/adult-ambulance-care-263210.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/chemistry-clinic-equipment-207601.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/addiction-aid-bottle-356054.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/doctor-medical-medicine-health-42273.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/business-care-clinic-1282308.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+</div>
+
+<div id="fact">
+    <fieldset>
+        <legend>tODAY's  fACT </legend>
+        <marquee behavior="scroll" direction="left" scrollamount="10" style="color: red;font-size: 18px">The da Vinci® surgical system is the most advanced platform for minimally invasive surgery available today. The robotic system is a breakthrough in surgical technology.</marquee>
+
+    </fieldset>
+</div>
+
+<div id= "depart">
+    <h style="color: #c33b3b;font-size: 40px;text-shadow: 5px 1px #eee;font-family: fantasy;">Centers Of Excelence</h><br><br>
+    <q style="font-size: 20px;">Combining the best specialists and equipment to provide you nothing short of the best in healthcare</q><br><br>
+    <hr width="100%" size="5px">
+    <ul>
+        <li id="ortho">Orthopaedics</li>
+        <li id="ent">ENT</li>
+        <li id="cardio">Cardiology</li>
+        <li id="eye">Eye</li>
+        <li id="xray">X-Ray</li>
+        <li id="blood">Blood</li>
+    </ul>
+    <hr width="70%" size="5px">
+</div>
+
+<div class="review"><hr>What Our Patient's Say <hr></div>
+<div class="patientView">
+    <div class="content2">
+        Kumaradarani is now six years post liver transplant and is enjoying her new lease on life she is now the proud grandmother. All this seemed like a distant dream six years ago when she could not care for her children, barely walk nor eat and was worried about her a future she did not think she could be a part of. She and her children feel lucky and would also like to be organ donors as they now recognize the impact this act has on others lives.
+    </div>
+    <div class="content">
+        
+    </div>
+    <div class="content">
+        
+    </div>
+    <div class="content">
+        
+    </div>
+    <div class="content">
+        
+    </div>
+</div>
+
+<div id="modal1">
+   <span id="close" class="cut">&#9747;</span>
+    <div id = "form">
+    <form>
+        <h>Book Your Appointment</h><br>
+        <input type="text" placeholder="Patient name" required><br>
+        <div id="gender">
+            <fieldset>
+                <legend>Select Gender:</legend>
+                <label><input type="radio" name="g" value="male" required>Male</label>
+                <label><input type="radio" name="g" value="female" required>Female</label>
+                <label><input type="radio" name="g" value="other" required>Other</label>
+            </fieldset>
+        </div>   
+        <select name="" id="" required>
+            <option value="0">choose Department</option>
+             <option value="1">Orthopaedics</option>    
+             <option value="2">ENT</option>
+             <option value="3">Cardiology</option>
+             <option value="4">Eye</option>
+             <option value="5">X-Ray</option>
+             <option value="6">Blood</option>
+             <option value="7">Other</option>
+         </select>  <br>              
+          <textarea name="" id="" cols="30" rows="5" placeholder="Specify your Problem Here..." required></textarea><br>
+         <div id="schedule">
+            <span>* Set your check-up date and time</span><br>
+             <label>DATE : </label> <input type="date" value="2019-05-20" required> <br>
+             <label>TIME : </label><input type="time" required> <br>
+         </div>
+         <input type="text" placeholder="Contact Number" required><br>
+         <input type="text" placeholder="Approximate checkup fee" id="rate" disabled required> <br>
+         <input type="submit" value="Save">
+    </form>
+    </div>
+</div>
+
+<div id="ortho2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span>Orthopaedics</span>
+        </div>
+        <div class="content">
+            <p>The ARAV Heart Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in cardiology and cardiothoracic surgery. The scorecard shows an unmatched record of over 1,52,000 cardiac and cardiothoracic surgeries.</p>
+            <br>
+            <p>Our team of cardiologists and cardiothoracic surgeons are trained at the top institutes in India and abroad and are completely dedicated to the treatment for coronary heart diseases. Our pioneering work for the prevention and treatment of cardiac diseases has led to the achievement of better outcomes and improved quality of life for thousands of cardiac patients who visit us each year with complex heart problems. ARAV Hospitals has a team led by the best Cardiologists in India and our advanced infrastructure supports the complex nature of the cardiac care provided. Third generation Cath Labs, Cardiac Critical Care Units and Intensive Care Units support our experienced cardiologists and post-operative care teams, making us the most sought-after Cardiology hospital in India.</p><br>
+            <a href="Ortho.html"> -&gt; Click Here to know more </a><br><br>
+
+        </div>
+    </div>
+</div>
+
+<div id="ent2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span style="color: #ffffff;font-weight: bold">ENT</span>
+        </div>
+        <div class="content">
+            <p>The ARAV ENT institute has specialized doctors to take care of all critical cases and overcome them.</p>
+            <br>
+            <a href="Ent.html"> -&gt; Click Here to know more </a><br>
+        </div>
+    </div>
+</div>
+
+<div id="eye2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span>Eye</span>
+        </div>
+        <div class="content">
+            <p>The ARAV Eye Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in EYE surgery. The scorecard shows an unmatched record of over 20,000 eye surgeries.</p>
+
+            <p>Our team of EYE surgeons are trained at the top institutes in India and abroad and are completely dedicated to the treatment for EYE diseases. Our pioneering work for the prevention and treatment of EYE problems has led to the achievement of better outcomes and improved quality of life for thousands of EYE patients who visit us each year with complex EYE problems. </p>
+            <br><a href="Eye.html">-&gt; Click here to know more</a><br><br>
+        </div>
+    </div>
+</div>
+
+<div id="cardio2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span>Cardiology</span>
+        </div>
+        <div class="content">
+            <p>The ARAV Heart Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in cardiology and cardiothoracic surgery. The scorecard shows an unmatched record of over 1,52,000 cardiac and cardiothoracic surgeries.</p>
+            <br>
+            <p>Our team of cardiologists and cardiothoracic surgeons are trained at the top institutes in India and abroad and are completely dedicated to the treatment for coronary heart diseases. Our pioneering work for the prevention and treatment of cardiac diseases has led to the achievement of better outcomes and improved quality of life for thousands of cardiac patients who visit us each year with complex heart problems. ARAV Hospitals has a team led by the best Cardiologists in India and our advanced infrastructure supports the complex nature of the cardiac care provided. Third generation Cath Labs, Cardiac Critical Care Units and Intensive Care Units support our experienced cardiologists and post-operative care teams, making us the most sought-after Cardiology hospital in India.</p><br>
+            <a href="Cardio.html"> -&gt; Click Here to know more </a><br><br>
+        </div>
+    </div>
+</div>
+
+<div id="xray2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span>X-Ray</span>
+        </div>
+        <div class="content">
+            <p>The ARAV X-ray Institutes has fully featured X-ray room that gives a precise result of our patients. </p>
+            <br>
+            <a href="xray.html"> -&gt; Click Here to know more </a>
+            <br>
+        </div>
+    </div>
+</div>
+
+<div id="blood2" class="modalDepart">
+    <div class="departContainer">
+        <div class="img">
+        <span>Blood</span>
+        </div>
+        <div class="content">
+            <p>The ARAV Blood Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in Blood Department.</p>
+            <br>
+            <p>Our team of blood are trained at the top institutes in India and abroad and are completely dedicated to the treatment for blood diseases. Our pioneering work for the prevention and treatment of blood diseases has led to the achievement of better outcomes and improved quality of life for thousands of blood patients who visit us each year with complex blood problems.</p>
+            <a href="Blood.html"> -&gt; Click Here to know more </a>
+        </div>
+    </div>
+</div>
+
+<div class="healthContainer" id="tips">
+    <div class="header">
+       <span style="color: #6b50ff; font-size: 40px;position: absolute;
+        left: 5px;top:-10px;"><i class="fas fa-bookmark"></i></span>
+        HEALTH <br><br>TIPS
+    </div>
+    <div class="content1">
+       Today's Tip : <br><br> 
+        <ul type="disc">
+            <li>Oranges are excellent in all type of fevers</li><br>
+            <li>When the digestive of the body id seriously hampered</li><br>
+            <li>Orange juice provides energy,increases urinary output and promotes body resitance against infections ,therby hastening recovery</li>
+        </ul>
+    </div>
+</div>
+
+<div class="subscribe">
+    <div class="container">
+        <h></h>
+    </div>
+</div>
+
+<footer> 
+    <div class="grid-container">
+        <div class="logo">
+            <img src="images/arav.png" alt="">
+        </div>
+        <div class="newsletter">
+            <a href="about.html" style="text-decoration: none;color:black;"><b>About Us </b></a><br><br>
+            <span>Subscribe to recieve Newsletter </span><br>
+            <input type="email" placeholder="example@email.domain" title="Enter Your Email to recieve updates about our hospital" id="email">
+            <input type="button" value="SAVE" onclick="validate()"><br>
+            <div class="follow">
+                <span>Follow Us on :</span><br>
+                <span class="socialIcon"><i class="fab fa-facebook"></i></span>
+                <span class="socialIcon"><i class="fab fa-google-plus"></i></span>
+                <span class="socialIcon"><i class="fab fa-whatsapp-square"></i></span>
+                <span class="socialIcon"><i class="fab fa-twitter-square"></i></span>
+            </div>
+        </div>
+        <div class="contactUs">
+            <pre>
+                <b>CONTACT US</b><br>
+                ARAV HOSPITAL Pvt LTD
+                Jalandhar,Kapurthala
+                PUNJAB,144411
+                <b>Phone:</b> 800-877-9882
+                <b>Fax:</b> 202-328-3939
+                <b>Email:</b> arav@gmail.com
+            </pre>
+        </div>
+    </div>  
+<a name ="contact"></a>
+</footer>
+
+</body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<script src="js/main.js"></script>
+<script src="js/headerfooter.js"></script>
+
+</html>

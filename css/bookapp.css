@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;
+}
+#form{
+    padding: 30px;
+    width: auto;
+    border: 1px solid blue;
+}
+#form form input{
+    width:40%;
+    margin: 10px 20px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #888;
+    font-size: 18px;
+    font-weight: light;
+}
+#form form label{
+    margin: 20px;
+}
+#form form label input[type = "radio"]{
+    width: 20px;
+    height: 20px;
+    margin: 10px 20px;
+}
+
+#form form input:focus{
+    border:2px solid green;
+    box-shadow: 10px 10px 80px 20px #eee;
+}
+#form form input[type = "date"],#form form input[type = "time"]{
+    width: 17.5%;
+}
+#form form input[type = "submit"]{
+    background-color: deepskyblue;
+}
+#form form input[type = "submit"]:hover{
+    background-color: cornflowerblue;
+}
+#form form select{
+    width:40%;
+    margin: 10px 20px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #888;
+    font-size: 18px;
+    font-weight: light; 
+    color: #888;
+}
+#form form select:hover{
+    border:2px solid green;
+    box-shadow: 10px 10px 80px 20px #eee;
+}
+#form form select :nth-child(1){
+    color: red;
+}
+#form form textarea{
+    resize: none;
+    width:40%;
+    margin: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #888;
+    font-size: 18px;
+    font-weight: light;
+    color: #888;
+    padding: 5px;
+}

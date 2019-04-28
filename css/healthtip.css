@@ -1,0 +1,44 @@
+.healthContainer{
+    width: 400px;
+    height: 230px;
+    background-color: rgba(0, 255, 196, 0.92);
+    box-sizing: border-box;
+    position: fixed;
+    top: 30%;
+    left: calc(100% - 40px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.healthContainer .header{
+    width: 40px;
+    overflow: hidden;
+    letter-spacing: 10px;
+    word-break:break-all;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    padding:30px 5px 0px 10px;
+    background-color: #ffd35d;
+    height: 100%;
+    font-weight: bold;
+    border: 2px solid brown;
+    float: left;
+    color: red;
+}
+.healthContainer .content1{
+    float: right;
+    height: 100%;
+    padding: 10px 20px 0px 0px;
+    width: calc(100% - 80px);
+    font-size: 15px;
+    color: #000000;
+    font-family: algerian;
+}
+.healthContainer:hover{
+    left:calc(100% - 400px);
+    box-shadow: 10px 10px 10px 
+}
+.healthContainer .content1 ul li{
+    color: black;
+    font-family:Adobe Garamond Pro;
+}
