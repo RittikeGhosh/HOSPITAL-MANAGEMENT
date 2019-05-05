@@ -1,3 +1,4 @@
+   
     var btn0 = document.getElementById("bookAp");
     var modal0 = document.getElementById("modal1");
 
@@ -9,12 +10,12 @@
     btn0.addEventListener("click",function(){
         modal0.style.height="100%";
     });
-
-close.addEventListener("click",function(){
+ 
+    close.addEventListener("click",function(){
         modal0.style.height="0%";
     });
 
-  window.onclick = function(e){
+    window.onclick = function(e){
         if(e.target == modal0)
             {
                 modal0.style.height="0%";
@@ -48,7 +49,8 @@ close.addEventListener("click",function(){
                 modal6.style.height="0%";
             }
     };
-var rate =document.querySelector("select");
+    
+    var rate =document.querySelector("select");
     rate.addEventListener('click',function(){
         if(rate.value == 0)
             document.querySelector("#rate").value = "Approximate checkup fee";
@@ -66,8 +68,8 @@ var rate =document.querySelector("select");
             document.querySelector("#rate").value = "Approximate checkup fee : 700 Rs";
         else if(rate.value == 7)
             document.querySelector("#rate").value = "Approximate checkup fee : N/A";
-   });
-   document.querySelector("input[type='submit']").addEventListener('click',function(e){
+    });
+    document.querySelector("input[type='submit']").addEventListener('click',function(e){
         e.preventDefault();
         modal0.style.height="0%";
         popUpText.innerHTML = "Your appointment has been successfully Booked please Arrive on Time";
